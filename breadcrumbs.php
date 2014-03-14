@@ -56,5 +56,5 @@ defined('_JEXEC') or die;
 	?>
 </ul>
 <?php if (strpos( $params->get ('moduleclass_sfx'), 'show_header')!==false){ ?>
-	 <h1 class="breadcrumb-header"><a href="/" class="b-h-a"></a><?php $last = echo $title; //Вывод Titile H2	 ?></h1>
+	 <h1 class="breadcrumb-header"><a href="/" class="b-h-a"></a><?php $last = end($path); echo $title; //Вывод Titile H2	 ?></h1>
 <?php } ?>
